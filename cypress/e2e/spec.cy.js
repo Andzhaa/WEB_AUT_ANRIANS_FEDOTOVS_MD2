@@ -39,7 +39,7 @@ describe('MD 2 tests', () => {
     SummaryPage.checkComment.should("contain.text", "CURA Healthcare Service");
   })
 
-  it.only("Appointment history empty", () => {
+  it("Appointment history empty", () => {
     //Click make an appointment button
     HomePage.makeAppointmentButton.click();
     //Login into demo account
